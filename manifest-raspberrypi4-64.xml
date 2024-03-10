@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="kirkstone"/>
+  
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded"  name="oe"/>
+  <remote fetch="https://github.com/agherzan"      name="rpi"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt5"/>
+
+  <project name="poky" remote="yocto" revision="kirkstone" path="sources/poky"/>
+  <project name="meta-openembedded" remote="oe" revision="kirkstone" path="sources/meta-openembedded"/>
+  <project name="meta-raspberrypi" remote="rpi" revision="kirkstone" path="sources/meta-raspberrypi"/>
+  
+  <project name="meta-mender" remote="mender" revision="kirkstone" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="mender" revision="kirkstone" path="sources/meta-mender-community"/>
+
+  <project name="meta-qt5" remote="qt5" revision="kirkstone" path="sources/meta-qt5"/>
+
+</manifest>
