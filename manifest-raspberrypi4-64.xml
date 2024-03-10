@@ -12,8 +12,8 @@
   <project name="meta-openembedded" remote="oe" revision="honister" path="sources/meta-openembedded"/>
   <project name="meta-raspberrypi" remote="rpi" revision="honister" path="sources/meta-raspberrypi"/>
   
-  <project name="meta-mender" remote="mender" revision="kirkstone" path="sources/meta-mender"/>
-  <project name="meta-mender-community" remote="mender" revision="kirkstone" path="sources/meta-mender-community"/>
+  <project name="meta-mender" remote="mender" revision="master" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="mender" revision="master" path="sources/meta-mender-community"/>
 
   <project name="meta-qt5" remote="qt5" revision="honister" path="sources/meta-qt5"/>
 
